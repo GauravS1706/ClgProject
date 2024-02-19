@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    
+    <div class="back">
+      
+        <div class="div-center">
+          <!-- <img src="/Pathlab/img/logo.png" alt="Logo"> -->
+          <div class="content">
+            
+             <div class="Lname">
+                <div class="fname"><h1>Path</h1></div>
+                <div class="lname"><h1>Login</h1></div>
+              
+                
+            </div> <br>
+          
+            <center>
+            <form id="myForm" action="next_page.html" method="POST">
+              <hr/>
+              <div class="form-group">
+                    <!-- <label for="exampleInputEmail1"><B>Email add</B></label> -->
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="username" placeholder="Email" required>
+                  </div>
+              <div class="form-group">
+                <!-- <label for="exampleInputPassword1">Password</label> -->
+                <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password" required>
+              </div>
+              <div class="mid">
+                <label><input type="checkbox"> Remember me</label>
+                 <h6 id="res"><a  style="text-decoration:none" href="#" id="i2"><i class="fa-solid fa-lock"></i>  
+                    Reset Password</a></h6><br><br></div><br>
+              <div class="login">
+              <button type="submit" class="btn btn-primary"  onclick="return login()">LOG IN</button><br></div><br>
+              <hr/><br><br>
+
+             
+
+              <p>For Software Purchase Contact Admin</p><br>
+              <p>Call On  <i class="fa-solid fa-phone"></i> 9021006945</p>
+            </form>
+            
+        </center>
+            
+       
+        </div>
+        </span>
+        </div>
+        </div>
+        <script>
+          function login() {
+    
+      window.location.href = "home.html";
+   
+  }
+</script>
+</body>
+</html>
